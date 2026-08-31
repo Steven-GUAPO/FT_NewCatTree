@@ -25,7 +25,7 @@ taxonomy.md             the taxonomy spec + argument for it
 
 ## What I'd change with more time
 
-- **LLM fallback for the long tail.** Deterministic rules cover the big brands;
+- **LLM fallback.** Deterministic rules cover the big brands;
   a constrained JSON-schema output would handle odd phrasings and
   off-brand SKUs, gated by a confidence threshold and cross-checked against the
   spec table.
