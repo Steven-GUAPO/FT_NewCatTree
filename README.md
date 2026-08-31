@@ -3,7 +3,7 @@
 Takes the FilmTools **Storage department**, pulls each product, extracts
 structured attributes from unstructured titles/descriptions/spec-tables, and
 files everything into a proposed **user-first taxonomy** (facets + workflow
-landing pages, not FilmTools' current tree). Ships with a runnable pipeline, a
+landing pages). Ships with a runnable pipeline, a
 real harvested sample, generated output, and a faceted browse demo.
 
 
