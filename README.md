@@ -25,14 +25,10 @@ taxonomy.md             the taxonomy spec + argument for it
 
 ## What I'd change with more time
 
-- **LLM fallback.** Deterministic rules cover the big brands;
-  a constrained JSON-schema output would handle odd phrasings and
-  off-brand SKUs, gated by a confidence threshold and cross-checked against the
-  spec table.
-- **Learn workflow rules from behavior.** Seed workflows with rules, then tune
-  them against real add-to-cart / search data. Can be done with machine learning algorithms and predictive models. 
-- **Unit tests + schema validation** on every output record, and a diffing step
-  so a site redesign that breaks a selector fails loudly.
+- **LLM fallback** Give the QA layer a way to catch "confidently wrong," not just "uncertain." The review queue only flags low-confidence extractions did not catch 0 of the ~40-50 taxonomy misassignments because they were confident and wrong. I'd add cross-field consistency checks (ex. a single-unit SSD assigned to "Cables & Connectivity" is a contradiction worth flagging regardless of confidence score) and a small regression set (~50-100 hand-verified products) run on every pipeline change, so a rule-ordering bug in taxonomy.py fails a test instead of shipping silently into 1,000+ products.
+- **Learn workflow rules from behavior.** Seed workflows with rules, then tune them against real add-to-cart / search data. Can be done with machine learning algorithms and predictive models. 
+- **Unit tests + schema validation** on every output record
+so a site redesign that breaks a selector fails loudly/ sets off an alarm.
 
 
 ## Where it breaks at 10,000 products
