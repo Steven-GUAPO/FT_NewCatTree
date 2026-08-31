@@ -1,0 +1,759 @@
+{
+  "product_count": 1013,
+  "primary_category_counts": {
+    "Drives > Solid-State Drives (SSD)": 136,
+    "Uncategorized > Needs Review": 43,
+    "Drives > Hard Disk Drives (HDD)": 54,
+    "Multi-Bay & RAID > 2-Bay": 138,
+    "Drives > Bare / Internal Drives": 80,
+    "Cables & Connectivity > Thunderbolt / USB Cables": 88,
+    "Archive & Backup > LTO Tape": 63,
+    "Multi-Bay & RAID > 6-Bay & Up": 51,
+    "Multi-Bay & RAID > 4-Bay": 53,
+    "Network Storage (NAS) > Desktop NAS": 19,
+    "Readers & Docks > Docks & Hubs": 48,
+    "Readers & Docks > Card Readers": 32,
+    "Camera Media > CFast": 11,
+    "Camera Media > Other Cards": 29,
+    "Camera Media > SD / microSD": 66,
+    "Camera Media > CFexpress": 19,
+    "Archive & Backup > Optical (Blu-ray/DVD/CD)": 79,
+    "Recorders > Field Recorders": 4
+  },
+  "workflow_counts": {
+    "Offload & Ingest": 198,
+    "On-Set Capture": 204,
+    "Edit Fast": 279,
+    "Backup & Redundancy": 267,
+    "Archive Forever": 287,
+    "Team & Network": 211
+  },
+  "media_type_counts": {
+    "ssd": 259,
+    "unknown": 43,
+    "hdd": 243,
+    "cable": 88,
+    "enclosure": 10,
+    "tape": 63,
+    "nas": 19,
+    "hub": 29,
+    "dock": 19,
+    "reader": 32,
+    "memory_card": 125,
+    "optical": 79,
+    "recorder": 4
+  },
+  "interface_counts": {
+    "USB 3.2 Gen 1": 95,
+    "USB 3.1": 98,
+    "USB 3.0": 120,
+    "Thunderbolt 4": 105,
+    "Thunderbolt 3": 330,
+    "Thunderbolt 2": 39,
+    "USB 3.2 Gen 2": 136,
+    "PCIe/NVMe": 336,
+    "SATA": 370,
+    "Thunderbolt 5": 25,
+    "USB4": 53,
+    "USB 3.2 Gen 2x2": 27,
+    "USB 2.0": 40,
+    "FireWire 800": 17,
+    "Ethernet": 76,
+    "SDXC UHS-II": 129,
+    "CFast 2.0": 15,
+    "CFexpress Type A": 9,
+    "CFexpress Type B": 26
+  },
+  "capacity_bucket_counts": {
+    "256 GB - 1 TB": 143,
+    "< 256 GB": 200,
+    "4 - 8 TB": 82,
+    "1 - 2 TB": 94,
+    "2 - 4 TB": 92,
+    "8 - 20 TB": 108,
+    "20 TB+": 154
+  },
+  "extraction_coverage": {
+    "media_type": {
+      "filled_pct": 100.0,
+      "mean_confidence": 0.85
+    },
+    "form_factor": {
+      "filled_pct": 92.8,
+      "mean_confidence": 0.73
+    },
+    "capacity": {
+      "filled_pct": 86.2,
+      "mean_confidence": 0.76
+    },
+    "interfaces": {
+      "filled_pct": 76.6,
+      "mean_confidence": 0.65
+    },
+    "speed": {
+      "filled_pct": 65.4,
+      "mean_confidence": 0.46
+    }
+  },
+  "review_queue_size": 118,
+  "review_queue": [
+    {
+      "title": "Apricorn 16GB Aegis Secure Key 3NX Encrypted USB 3.1 Gen 1 Flash Drive ()",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "OWC Express 1M2 80G USB Bus-Powered Portable NVMe",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Apricorn 2TB Aegis Fortress FIPS 140-2 Level 2 Secure USB 3.0 Portable Drive",
+      "reason": [
+        "capacity mismatch: title says [2000]GB but description says [1000]GB"
+      ]
+    },
+    {
+      "title": "Apricorn USB Type-A Female to USB Type-C Male Adapter (6\")",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Oyen Digital MiniPro RAID V4 2-Bay USB-C 3.2 Gen 2 Portable Hard Drive & RAID Array",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Oyen Digital Mobius 2C RAID 2-Bay USB-C Hard Drive Enclosure",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC Express 1M2 USB4 (80Gb/s) Bus-Powered Portable NVMe",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "SanDisk Professional G-DRIVE Enterprise-Class USB 3.2 Gen 2 External Hard Drive (Various Capacities)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC Mercury Elite Pro Dual 2-Bay USB 3.0 RAID Enclosure",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Glyph Technologies SecureDrive+ Professional External SSD",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Glyph Technologies SecureDrive+ Professional External HDD",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC Mercury Elite Pro Dual 2-Bay USB 3.2 Gen 2 RAID Enclosure with 3-Port Hub",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "iodyne 2TB SSD Spare ()",
+      "reason": "low completeness"
+    },
+    {
+      "title": "iodyne 4TB SSD Spare ()",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Iodyne 1U Single Pro Data Rackmount (20\" Depth)",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Iodyne 5U Triple Pro Data Mac Studio Rackmount (20\" Depth)",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Maxx Digital 1TB Edit Vault",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Maxx Digital Edit Vault (Various)",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Maxx Digital 2TB Edit Vault",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "OWC Mercury Elite Pro Dual RAID Storage Solution with USB (/s) + 3-Port Hub (Various Capacities)",
+      "reason": "low completeness"
+    },
+    {
+      "title": "OWC Mercury Elite Pro Dual mini USB-C RAID External Enclosure",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC 4TB Mercury Elite Pro Dual RAID Storage Solution with USB (10Gb/s) + 3-Port Hub",
+      "reason": "low completeness"
+    },
+    {
+      "title": "OWC 12TB Mercury Elite Pro Dual RAID Storage Solution with USB (10Gb/s) + 3-Port Hub",
+      "reason": "low completeness"
+    },
+    {
+      "title": "OWC 32TB Mercury Elite Pro Dual RAID Storage Solution with USB (10Gb/s) + 3-Port Hub",
+      "reason": "low completeness"
+    },
+    {
+      "title": "OWC 24TB Mercury Elite Pro Dual RAID Storage Solution with USB (10Gb/s) + 3-Port Hub",
+      "reason": "low completeness"
+    },
+    {
+      "title": "OWC 16TB Mercury Elite Pro Dual RAID Storage Solution with USB (10Gb/s) + 3-Port Hub",
+      "reason": "low completeness"
+    },
+    {
+      "title": "OWC ThunderBay 8 Eight-Bay Thunderbolt 3 RAID External Storage Enclosure",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC Gemini Thunderbolt (USB-C) Dock and Dual-Bay RAID External Storage Enclosure",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC ThunderBay Flex 8 Thunderbolt 3 8-Bay RAID Enclosure",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Oyen Digital Mobius 5-Bay FireWire 800, eSATA, USB 3.0 RAID Hard Drive Array (Various Capacities)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC Express 1M2 USB4 External SSD",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "iodyne SSD Spare () (1TB, 2TB, 4TB)",
+      "reason": "low completeness"
+    },
+    {
+      "title": "PortaBrace Universal Waterproof Rain Slick Cover for PTZ Cameras",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "PortaBrace Rain and Dust Cover for Mirrorless Cameras",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "PortaBrace Lightweight Carrying Case for C-Stands",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "iodyne 1TB SSD Spare ()",
+      "reason": "low completeness"
+    },
+    {
+      "title": "OWC 2.5\" (13 cm) to 3.5\" (8.9 cm) Drive Adapter Bracket",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC Mercury Accelsior M mSATA SSD to PCIe Expansion Card",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC 10G Ethernet PCIe Network Card",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "SanDisk Extreme CompactFlash Memory Card (Various Memory Capacities)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "SanDisk Extreme PRO CFast 2.0 Memory Card (Various Memory Capacities)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Jupio BatMem Battery and Memory Card Case",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Lexar Professional 1800x UHS-II SDXC Memory Card (GOLD Series, 2-Pack) (Various Capacities)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Delkin Devices BLACK UHS-I (U3/V30) SDXC Memory Card (Various)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Angelbird USB Type-C Female to USB Type-A Male Adapter",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Verbatim SuperSpeed USB 3.0 Store 'n' Go V3 USB Drive (Memory Capacity)",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Verbatim 64GB SuperSpeed USB 3.0 Store 'n' Go V3 USB Drive",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Verbatim 128GB SuperSpeed USB 3.0 Store 'n' Go V3 USB Drive",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Transcend JetFlash 700 USB 3.0 Flash Drive - 64GB - Black",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Delkin 32GB PocketFlash USB 3.0 Flash Drive",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "SanDisk 64GB Ultra Flair USB 3.0 Flash Drive",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Quantum LTO Data Cartridge (Various)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "HPE LTO Data Cartridge (Various)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "MLogic mTape Thunderbolt 3 LTO-8 with Retrospect Desktop for macOS",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Fujifilm LTO Ultrium Data Cartridge (Various)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Fujifilm 2.5TB LTO 6 Ultrium Barium Ferrite Data Cartridge",
+      "reason": [
+        "capacity mismatch: title says [2500]GB but description says [6250]GB"
+      ]
+    },
+    {
+      "title": "IBM 50 Cycles LTO Cleaning Cartridge",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Tandberg LTO Data Cartridge (Various)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "HP 50 Cycles LTO Cleaning Cartridge",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Sun Micro LTO Ultrium Data Cartridge (Various)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Fuji 50 Cycles LTO Cleaning Cartridge",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "IBM LTO Ultrium Data Cartridge (Various)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Verbatim 4X Branded 94836 DVD-RW in jewel case - 1pc",
+      "reason": "low completeness"
+    },
+    {
+      "title": "SONY HDCAM 64 MIN LRG",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Verbatim 4.7GB 8X DataLifePlus Double-Layer White Thermal Hub Printable DVD+R - 50pc",
+      "reason": [
+        "capacity mismatch: title says [5]GB but description says [8]GB"
+      ]
+    },
+    {
+      "title": "Falcon 700MB 52X Gold Archival 80 Min CDR Cake Box - 25pc",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Verbatim 52X White DataLifePlus Inkjet Hub Printable CDR Shrinkwrap - 100pc",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Assembled Jewel Box with Black Double Tray",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Falcon 700MB 52X Thermal - Shiny Silver - 80 Min CDR Shrinkwrap - 100pc",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Falcon 700MB 52X Thermal - White - Diamond Coat - 80 Min CDR Shrinkwrap - 100pc",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Falcon 700MB 52X White Thermal Gold Archival 80 Min 5 CDR Shrinkwrap - 300pc",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Verbatim 52X White Data Life Plus Thermal 80 Min CDR Cake Box - 50pc",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Verbatim 4X Silver Data Life Plus Inkjet 80 Min CD-RW Cake Box - 50pc",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Verbatim 52X White Inkjet 80 Min CDR Cake Box - 100pc",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Verbatim 52X White Inkjet Hub Printable 80 Min CDR Cake Box - 100pc",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Verbatim 52X White Thermal Hub Printable Everest Compatible 80 Min CDR Cake Box - 100pc",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Verbatim 52X Shiny Silver 80 Min CDR - 600pc",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Verbatim 52X White Inkjet Hub Printable 80 Min Cake Box - 100pc",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Verbatim 52X White Thermal Hub Printable 80 Min CDR Cake Box - 100pc",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Zoom H8 Handy Recorder",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Zoom BTA-2 Bluetooth Adapter for PodTrak P4",
+      "reason": "low completeness"
+    },
+    {
+      "title": "ARRI 2TB CODEX Compact Drive set 6x2TB",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "ARRI CODEX SXR Capture Drive Adapter",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "ARRI CODEX XR Capture Drive Adapter",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Sony TG-2 Thumb Grip for RX1R III",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "OWC ThunderBay 4 4-Bay Thunderbolt 3 RAID Array (4 x , RAID 5 Enterprise Edition) (Various Capacities)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC ThunderBay 4 4-Bay Thunderbolt 3 RAID 5 Array (4 x ) (Various Capacities)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "SmallRig Shotgun Microphone Holder (Cold Shoe) BSM2352",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "OWC Mercury Elite Pro Dual 2-Bay Thunderbolt 2 RAID Array (Various)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "DJI Goggles 2 Foam Padding",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "OWC Envoy Pro USB 3.0 SSD Enclosure for MacBook Pro and iMacs",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "ARRI Optical Cleaning Cloth 14.6 x 17.7 inch",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "SmallRig Swivel & Tilt Monitor Mount w/ Cold Shoe BSE2346B",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Oyen Digital Mobius 5-Bay FireWire 800, eSATA, USB 3.0 RAID Enclosure",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Apricorn Aegis Configurator on USB key bundled with an approved 10-port USB hub (5 amp power supply)",
+      "reason": "low completeness"
+    },
+    {
+      "title": "Viviana Straps Chest Extreme for Lavalier Microphones Black",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Viviana Straps Chest Extreme for Lavalier Microphones White",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Viviana VHG Directional Dual-Hook Carabiner with Removable Harness Ring",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Viviana Beetle Modular Lav Concealer for Sanken COS-11D Black",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "PSC Headphone Softie - Pair of Soft Headphone Ear-Pad Covers Small-Red",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Global Dynamics GDU Sticker Pack",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Symply LTO-7 Half Height Drive upgrade for Desktop XTH enclosures",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Powerex MH-C490F Stealth Two-Hour Compact 4-Bank 9V NiMH Battery Charger",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Kino Flo Kino 41K Mount Wing with Baby Receiver (16mm)",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "DJI Avata Drone Propellers Guard",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "DJI Avata ND Filters Set (ND8/16/32)",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "DJI Goggles 2 Adjustable Elastic Velcro Headband\t Strap",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "OWC ThunderBlade X Spacer and Vertical Stacker for Multiple ThunderBlades",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "Oyen Digital Fortis 5C 5-Bay External Drive Array",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Oyen Digital Fortis 5C 5-Bay External Drive",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC Drive Dock USB 3.2 Dual Bay for 2.5/3.5\" NVMe U.2 SATA",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC 2TB Envoy Pro mini USB 3.2 Gen 2 Flash Drive",
+      "reason": [
+        "media_type could not be determined"
+      ]
+    },
+    {
+      "title": "OWC Mercury Elite Pro Quad 4-Bay USB 3.1 Gen 2 Type-C RAID Enclosure (RAID 0, 1, 0+1, 4 and 5)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC Flex 1U4 4-Bay Thunderbolt 3 Storage Array (3 x HDDs + 1 x SSD) (56TB, 62TB, 73TB)",
+      "reason": [
+        "capacity mismatch: title says [56000, 62000, 73000]GB but description says [8000, 16000]GB"
+      ]
+    },
+    {
+      "title": "OWC ThunderBay Flex 8 8-Bay Thunderbolt 3 RAID Array (4 x NVMe SSDs, 4 x HDDs) (Various Capacities)",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "OWC ThunderBay 8 8-Bay Thunderbolt 3 RAID Enclosure",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Glyph Blackbox Plus SSD",
+      "reason": [
+        "no capacity found for a capacity-bearing product"
+      ]
+    },
+    {
+      "title": "Digistor 480GB SSD Professional Video Series exFAT formatted",
+      "reason": "low completeness"
+    }
+  ]
+}

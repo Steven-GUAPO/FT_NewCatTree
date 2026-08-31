@@ -1,0 +1,11 @@
+# Live-crawl dependencies only.
+# The offline pipeline (attribute extraction, taxonomy assignment, output
+# generation) uses the Python standard library alone and needs nothing here.
+
+requests>=2.31          # HTTP for product-detail pages
+beautifulsoup4>=4.12    # HTML parsing (parse.py)
+lxml>=5.0               # faster/robuster BeautifulSoup backend
+
+# Needed only for headless enumeration of the JS-rendered category pages.
+# After install run:  python -m playwright install chromium
+playwright>=1.44
