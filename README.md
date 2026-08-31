@@ -1,4 +1,4 @@
-# FilmTools Storage — scrape → structure → re-categorize
+# FilmTools Storage (scrape, structure, re-categorize)
 
 Takes the FilmTools **Storage department**, pulls each product, extracts
 structured attributes from unstructured titles/descriptions/spec-tables, and
