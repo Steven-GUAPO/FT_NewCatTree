@@ -1,17 +1,16 @@
 # Proposed storage taxonomy
 
 A user-first replacement for the current FilmTools storage tree. It is not "a
-tidier tree" — it changes the *shape* of the model so the catalog can answer the
+tidier tree" instead it changes the *shape* of the model so the catalog can answer the
 questions filmmakers actually ask.
 
 ---
 
 ## 1. What's wrong with the current tree
 
-FilmTools' live storage nav mixes **different classification axes at the same
-level**:
+FilmTools' live storage nav mixes different classification axes at the same level:
 
-```
+
 Storage
 ├─ Hard Drives & RAID Storage        (media + arrangement)
 │   ├─ Portable Drives               ← form factor
@@ -28,24 +27,17 @@ Storage
 ├─ Solid State Drives                ← media  (again, top level)
 ├─ Docks
 └─ Cables
-```
 
-Form factor, media, interface, durability, connection and use-case are all used
-as sibling "categories." The consequences show up in the real catalog:
 
-- **One product, many true homes.** A *rugged, portable, Thunderbolt SSD* (OWC
-  Envoy Ultra, SanDisk Extreme PRO) legitimately belongs under Rugged Drives
-  **and** Thunderbolt Drives **and** SSD **and** Portable Drives. In a strict
-  single-parent tree it gets filed in one and silently disappears from the other
-  three browse paths.
-- **Duplicated branches.** "SSD Solid State Drives" exists both under Hard Drives
-  *and* as its own top-level category. Same products, two hand-maintained lists
-  that drift apart.
-- **No way to combine axes.** A shopper who wants "a 2 TB Thunderbolt SSD under
-  $250" cannot express that: the axes they care about are scattered across
-  branches instead of being filters they can stack.
+Form factor, media, interface, durability, connection and use-case are all used as sibling "categories."
 
-This is the classic *mixed-axis, single-parent* failure. You cannot fix it by
+- One product, many true homes. A *rugged, portable, Thunderbolt SSD* should belong under Rugged Drives **and** Thunderbolt Drives **and** SSD **and** Portable Drives. In a strict single-parent tree it gets filed in one and disappears from the other three browse paths.
+- Duplicated branches. "SSD Solid State Drives" exists both under Hard Drives
+*and* as its own top-level category. Same products, two hand-maintained lists that drift apart.
+- No way to combine axes. A shopper who wants "a 2 TB Thunderbolt SSD under
+$250" cannot express that since the axes they care about are scattered across branches instead of being filters they can stack.
+
+This is a mixed-axis, single-parent failure. You cannot fix it by
 renaming branches, because the problem is that one tree is being asked to encode
 several independent dimensions at once.
 
@@ -61,7 +53,7 @@ thing well.
 A single-axis, mutually-exclusive tree. Every product has exactly **one** home,
 so breadcrumbs, URLs and SEO stay stable.
 
-```
+
 Drives
 ├─ Solid-State Drives (SSD)
 ├─ Hard Disk Drives (HDD)
@@ -89,16 +81,16 @@ Recorders
 Cables & Connectivity
 ├─ Thunderbolt / USB Cables
 └─ Adapters
-```
 
-The spine is keyed on the *noun* — the thing in the box — which is the one axis
+
+The spine is keyed on the *noun* (the thing in the box) which is the one axis
 that is genuinely single-valued. "Portable," "Thunderbolt," "rugged" and "2 TB"
 are **not** on the spine, because they are not what the object *is*; they are
 properties of it. That is Layer 2's job.
 
 ### Layer 2 — Facets (orthogonal, multi-valued filters)
 
-Every other dimension becomes a facet the shopper can stack:
+Every other dimension becomes a facet (filter) the shopper can stack:
 
 | Facet | Example values |
 |---|---|
@@ -119,8 +111,7 @@ has, and "2 TB Thunderbolt SSD under $250" is just three facets plus the spine.
 ### Layer 3 — Workflows (curated saved-queries as landing pages)
 
 Facets are powerful but assume the shopper knows the vocabulary. Workflows are
-task-first entry points — each one is really a *saved facet query*, so a product
-can appear in several without any single-parent contradiction:
+task-first entry points where each one is really a *saved facet query*, so a product can appear in several without any single-parent contradiction:
 
 | Workflow | Roughly, the saved query |
 |---|---|
@@ -148,24 +139,21 @@ Assignment is deterministic from the normalized attributes:
    speed.
 3. **Workflows** — rule predicates over the facets; a product can match several.
 
-Each assignment carries an **`assignment_confidence`** and a **`needs_review`**
+Each assignment carries an assignment_confidence and a needs_review
 flag. Anything the rules can't place, or whose core attributes were too sparse to
-trust, is routed to *Uncategorized → Needs Review* rather than being guessed into
-a real category — a wrong home is worse than an honest "review me."
+trust, is routed to *Uncategorized - Needs Review* rather than being guessed into
+a real category figured a wrong home is worse than an honest "review me."
 
 ---
 
 ## 4. Migrating from the current tree
 
-The current categories don't disappear — they **become facet values or workflow
-queries**, which is what most of them already were:
+The current categories don't disappear — they become facet values or workflow
+queries, which is what most of them already were:
 
-- *Rugged Drives* → `Ruggedness = rugged` facet (and the On-Set Capture workflow)
-- *Thunderbolt Drives* → `Interface = Thunderbolt *` facet
-- *Portable / Desktop / Internal Drives* → `Form factor` facet under **Drives**
+- *Rugged Drives* → Ruggedness = rugged facet (and the On-Set Capture workflow)
+- *Thunderbolt Drives* → Interface = Thunderbolt * facet
+- *Portable / Desktop / Internal Drives* → Form factor facet under **Drives**
 - *Data Archiving* → **Archive & Backup** spine node + Archive Forever workflow
-- *USB Flash Drives* → **Drives** (or a Flash facet) + `Interface = USB`
+- *USB Flash Drives* → **Drives** (or a Flash facet) + Interface = USB
 - *Docks / Cables* → **Readers & Docks** / **Cables & Connectivity** spine nodes
-
-So old URLs can 301 to the equivalent facet query, and nothing that ranks today
-is orphaned.
